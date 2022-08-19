@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+/* <------ Body --------> */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+    width: auto;
+	height: auto;
+	background-image: url(http://ginva.com/wp-content/uploads/2012/07/city-skyline-wallpapers-008.jpg);
+	background-size: cover;
+    filter: blur(7px) brightness(0.8);
+    z-index: 0;
+}
+
+/* <------ Name --------> */
+.Name{
+    font-family: 'Exo', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: calc(50% - 45px);
+    left: 33%;
+    z-index: 1;
+}
+.Name span{
+    color: aqua;
+    font-weight: bold;
+}
+
+/* <------ Login --------> */
+.login{
+    position: absolute;
+    top: calc(50% - 70px);
+    left: 49%;
+    z-index: 2;
+    color: #fff;
+}
+.login input[type=username]{
+    font-family: 'Exo';
+    font-size: 20px;
+    height: 30px;
+    width: 230px;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 5px;
+    color: #fff;
+    background-color: transparent;
+    padding: 8px;
+    margin: 2px;
+}
+
+.login input[type=password]{
+    font-family: 'Exo';
+    font-size: 20px;
+    height: 30px;
+    width: 230px;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 5px;
+    color: #fff;
+    background-color: transparent;
+    padding: 8px;
+    margin: 2px;
+}
+
+.login input[type=button]{
+    font-family: 'Exo';
+    font-size: 18px;
+    font-weight: 100;
+    color: #a18d6c;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 2px;
+    width: 249px;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder{
+    color: rgba(255,255,255,0.6);
+ }
+ 
+ ::-moz-input-placeholder{
+    color: rgba(255,255,255,0.6);
+ }
+
+ input[type=button]:hover{
+    opacity: 0.8;
+ }
+ .login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=username]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,1);
+}
+.login input[type=password]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,1);
+}
+
+
